@@ -3,7 +3,9 @@ import './App.css';
 import GridBoard from './components/grid-board';
 import NextBlock from './components/next-block';
 import ScoreBoard from './components/score-board';
-import Controls from './components/controls'
+import Controls from './components/controls';
+import MessagePopup from './components/message-popup'
+
 
 class App extends Component {
   render () {
@@ -16,6 +18,7 @@ class App extends Component {
           <NextBlock/>
           <ScoreBoard/>
           <Controls/>
+          <MessagePopup/>
       </div>
     );
   }
